@@ -1,21 +1,21 @@
 pipeline {
-    agent any
-    stages {
-        stage (" tst") {
-            steps{
-            //
+    agent any {
+    satges{
+        stage('Build') {
+            steps {
+                sh 'echo This is Build'
             }
         }
-        stage ("dow") {
-            steps{
-                //
+        stage('Test') {
+            steps {
+                sh 'echo This is Tst'   
             }
         }
-        stage ("smt") {
-            steps{
-                //
+        stage('Deploy') {
+            steps {
+                sh 'echo This is Deploy'
             }
         }
+        
     }
-
 }
