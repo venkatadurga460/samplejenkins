@@ -1,6 +1,6 @@
 pipeline {
-    agent any {
-    satges{
+    agent any 
+    satges {
         stage('Build') {
             steps {
                 sh 'echo This is Build'
@@ -15,8 +15,6 @@ pipeline {
             steps {
                 sh 'echo This is Deploy'
             }
-        }
-        
-    }
+        }  
     }
 }
