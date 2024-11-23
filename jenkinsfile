@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+    stages {
+        stage (" tst") {
+            steps{
+            //
+            }
+        }
+        stage ("dow") {
+            steps{
+                //
+            }
+        }
+        stage ("smt") {
+            steps{
+                //
+            }
+        }
+    }
+
+}
